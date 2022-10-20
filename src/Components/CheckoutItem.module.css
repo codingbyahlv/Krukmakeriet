@@ -1,0 +1,71 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  border-bottom: 1px solid lightgrey;
+  margin-top: 1rem;
+}
+
+.imgWrapper {
+  width: 75px;
+  height: 75px;
+}
+
+.basketImage {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  width: 50%;
+}
+
+.heading {
+  font-size: 18px;
+}
+
+.changeAmountWrapper {
+  display: flex;
+  width: 95px;
+  gap: 9px;
+  background-color: #414b42;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  padding: 4px;
+  margin-top: 7px;
+}
+
+.changeAmount {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.priceDeleteWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.deleteBtn {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+@media screen and (min-width: 800px) {
+  .deleteBtn:hover {
+    color: #697569;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 1rem;
+  border: 1px solid lightgrey;
+  position: absolute;
+  right: 0;
+  top: 83px;
+  width: 100%;
+  z-index: 150;
+  height: 88vh;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.headingWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.closingBtn {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+
+.subHeading {
+  font-size: 16px;
+  text-align: left;
+}
+
+.basketItemWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.checkoutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.totalAmountWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid black;
+  padding-top: 3px;
+}
+
+.checkoutBtn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 160px;
+  padding: 10px;
+  background-color: #414b42;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  margin-top: 32px;
+}
+
+.checkoutBtn:hover {
+  cursor: pointer;
+  color: #414b42;
+  background: #ffffff;
+  border: 1px solid #414b42;
+  transition: 0.1s;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    width: 30%;
+    max-width: 500px;
+    right: 0;
+    top: 0;
+    height: 100vh;
+  }
+}

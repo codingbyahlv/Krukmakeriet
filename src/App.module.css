@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* 
+Här är fonten som ska vara på länkar i header/mobilmeny och länkar på korten på home
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+font-family: 'Montserrat', sans-serif; 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* a {
+  font-size: 16 px;
+}
+
+@media screen and (min-width:800px) {
+  a {
+    font-size: 18px;
+  }
+} */
